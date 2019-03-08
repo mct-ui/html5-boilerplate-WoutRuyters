@@ -106,19 +106,22 @@ hr {
     height: 1px;
     background: LightGrey;
     margin: 0 0 24px;
-    
+
 }
 
 a {
+    color: RoyalBlue;
+    transition: all 0.1s ease-in-out
 
+}
+
+
+a:visited,
+a:active {
+    color: BlueViolet;
 }
 
 a:hover,
 a:focus {
-
-}
-
-a:visited,
-a:active {
-
+    color: Crimson;
 }
